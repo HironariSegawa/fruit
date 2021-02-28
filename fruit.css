@@ -216,10 +216,6 @@ header {
   z-index: 10;
 }
 
-.recipe a:hover {
-  background-color:#38a2fd ;
-  color: #f6e1bc;
-}
 
 
 /*私たちについて(about)*/
@@ -403,11 +399,6 @@ main h2 {
   font-weight: bold;
 }
 
-.priceatc_bottom a:hover {
-  opacity: 0.8;
-  transform: scale(1.1);
-}
-
 /*オンラインショップ*/
 .onlineshopall {
   padding: 75px 0;
@@ -482,10 +473,7 @@ main h2 {
   transition: 0.3s;
 }
 
-.product_right a:hover {
-  opacity: 0.8;
-  transform: scale(1.1);
-}
+
 
 .border {
   width:80px;
@@ -719,6 +707,23 @@ i {
   font-size:35px;
 }
 
+@media screen and (min-width: 1001px) {
+  .product_right a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+  .recipe a:hover {
+    background-color:#38a2fd ;
+    color: #f6e1bc;
+  }
+
+  .priceatc_bottom a:hover {
+    opacity: 0.8;
+    transform: scale(1.1);
+  }
+
+}
 
 
 @media screen and (max-width: 1000px) {
@@ -726,7 +731,6 @@ i {
         width: 100%;
         padding-top: 50px;
     }:/
-    /* 🍔 */
     .open,
     .close {
         display: block;
@@ -753,7 +757,6 @@ i {
         background: rgba(0, 0, 0, 0.8);
         z-index:998;
     }*/
-    /* 🍔 */
 
 .header_nav {
   display: none;
@@ -962,6 +965,7 @@ main h2 {
 .menus_contain {
   margin-left: 0;
 }
+
 
 }
 
